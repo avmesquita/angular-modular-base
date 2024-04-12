@@ -1,0 +1,41 @@
+[
+    {
+      "id": 1,
+      "name": "Slide #1",
+      "title": "Peace & Spirit",
+      "titleColor": "white",
+      "subtitle": "Beyong of limits",
+      "subtitleColor": "white",
+      "backgroundImage": "/assets/images/demo.jpg",
+      "image": "",
+      "active": true,
+      "order": 1,
+      "routelink": ""
+    },
+    {
+      "id": 2,
+      "name": "Slide #2",
+      "title": "Above the Sea",
+      "titleColor": "white",
+      "subtitle": "Flying like waves",
+      "subtitleColor": "white",
+      "backgroundImage": "/assets/images/demo-2.jpg",
+      "image": "",
+      "active": true,
+      "order": 2,
+      "routelink": ""
+    },
+    {
+      "id": 3,
+      "name": "Slide #3",
+      "title": "The Nature",
+      "titleColor": "green",
+      "subtitle": "Relax and enjoy",
+      "subtitleColor": "white",
+      "backgroundImage": "/assets/images/demo-3.jpg",
+      "image": "",
+      "active": true,
+      "order": 3,
+      "routelink": ""
+    }
+  ]

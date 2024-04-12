@@ -1,0 +1,10 @@
+name: "frontend-base"
+version: "3"
+services:
+  webapp:
+    build: "."
+    tags:      
+      - "frontend-base"
+    image: avmesquita/frontend-base
+    ports:
+      - 80:80

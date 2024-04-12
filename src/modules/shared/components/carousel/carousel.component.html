@@ -1,0 +1,24 @@
+<p-carousel 
+  [value]="carouselItems" 
+  [numVisible]="1" 
+  [numScroll]="1" 
+  [circular]="true"
+  [responsiveOptions]="responsiveOptions"
+  [showIndicators]="true"
+  [showNavigators]="false"
+  (onPage)="onPage"
+>
+  <ng-template let-carouselItem pTemplate="item">
+    <a href="{{ carouselItem.routelink }}" target="_blank" style="text-decoration: none;color:back;">
+      <div class="border-1 surface-border border-round m-2 text-center py-5 px-3" style="height: 332px;background-image: url('{{ carouselItem.backgroundImage }}');background-repeat: no-repeat;background-position: center;background-size:cover; ">
+          <div>
+              <img [src]="carouselItem.image" style="max-width: 20%;bottom:0;float:left;">
+          </div>
+          <div style="position: absolute;text-align: left;min-width: 100%;top:1;padding-left:15px;">
+              <h4 class="mb-1" [style]="getColor(carouselItem.titleColor + ';font-size: xx-large;')">{{ carouselItem.title }}</h4>
+              <p [style]="getColor(carouselItem.subtitleColor + ';font-size: x-large;')">{{ carouselItem.description }}</p>
+          </div>
+      </div>
+    </a>
+  </ng-template>
+</p-carousel>

@@ -1,0 +1,18 @@
+<div class="toolbar centered-layer" role="banner">
+    <img
+      height="40"
+      alt="logo"
+      src="/assets/images/logo-exemple.png"
+    />    
+    <ul>
+        <li *ngFor="let itemMenu of menuService.menu$ | async">
+            <a [href]="itemMenu.route">{{ itemMenu.label }}</a>        
+        </li>
+    </ul>
+    <div class="spacer"></div>
+    <ul style="padding-right: 30px;">
+        <li *ngFor="let itemRightMenu of menuService.rightMenu$ | async">
+            <a [href]="itemRightMenu.route">{{ itemRightMenu.label }}</a>        
+        </li>
+    </ul>
+</div>
