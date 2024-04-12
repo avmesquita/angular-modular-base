@@ -7,3 +7,8 @@ The project deals with constant code and structure factorization practices, in o
    https://hub.docker.com/repository/docker/avmesquita/angular-modular-base/general
 
 
+## Screenshot:
+
+![screenshot](https://github.com/avmesquita/angular-modular-base/assets/screenshot.png)
+
+
